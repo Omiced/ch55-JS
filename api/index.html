@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <script defer src="app.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="">
+  <nav class="navbar bg-light mb-5">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img
+          src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTORR2uMHZNyzpEZwiAaQc5TC2szCCBY_z828Q6giqR28C6syDol-_HxF11QJMWF4tXtglnshoDuQlFpliN6uD5ug"
+          alt="img" width="30" height="24">
+      </a>
+    </div>
+  </nav>
+  <div class="alert alert-primary hidden" role="alert" id="alert_success">
+    Iniciaste sesión
+  </div>
+  <form class="w-25 m-auto mt-5">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" name="password">
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+  </form>
+  <div class="alert alert-danger mt-5 hidden" role="alert" id="alert_error">
+    Datos incorrectos prueba de nuevo
+  </div>
+</body>
+
+</html>
