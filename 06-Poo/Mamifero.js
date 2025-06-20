@@ -1,11 +1,11 @@
-//inicio de una clase
+//inicio de una clase, superclase
 export class Mamifero{
   //atributos, propiedes o varibles de instancia
   _patas; 
   producenLeche;
   cuernos;
   especie;
-  pelo;
+  pelo ;
   numDientes;
   cola;
   name; 
@@ -22,7 +22,7 @@ export class Mamifero{
       this.name = name;
   }
 
-  set setName(newName){
+  set name(newName){
     this.name = newName;
   }
 
@@ -104,7 +104,7 @@ export class Mamifero{
   }
 }//fin class 
 
-//objeto creado a partir de la clase Mamifero
+/*objeto creado a partir de la clase Mamifero
 const leon = new Mamifero(4, true, 0, "felino", true, 30, true,"simba" );
 const leon2 = new Mamifero(4, true, 0, "felino", true, 30, true,"nala" );
 console.log(leon);
@@ -117,4 +117,4 @@ console.log(leon.getNumDientes);
 console.log(Mamifero.tieneDientes(leon));
 console.log(Mamifero.tieneDientes(leon2));
 
-console.log(leon.getName)
+console.log(leon.getName)*/
